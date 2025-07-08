@@ -10,15 +10,17 @@ class BooksSeeder extends Seeder
     {
         $data = [
             [
-                'title' => 'Clean Code',
-                'author' => 'Robert C. Martin',
-                'published_date' => '2008-08-01',
+                'title' => 'Python untuk Programmer Pemula',
+                'author' => 'Jubilee',
+                'published_date' => '2024-08-01',
+                'cover' => '1751967026_e2642308a69a6332e074.bin',
                 'created_at' => date('Y-m-d H:i:s'),
             ],
             [
-                'title' => 'The Pragmatic Programmer',
-                'author' => 'Andrew Hunt',
-                'published_date' => '1999-10-30',
+                'title' => 'Semua Bisa Menjadi Programmer Laravel Basic',
+                'author' => 'Jhon Cena',
+                'published_date' => '2024-10-30',
+                'cover' => '1751967089_54a96f40fbe9d57729eb.bin',
                 'created_at' => date('Y-m-d H:i:s'),
             ],
         ];

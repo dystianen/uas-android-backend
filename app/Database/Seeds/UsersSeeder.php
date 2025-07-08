@@ -12,14 +12,8 @@ class UsersSeeder extends Seeder
 
         $data = [
             [
-                'name'    => 'John Doe',
-                'email'   => 'john@example.com',
-                'password' => password_hash('123', PASSWORD_DEFAULT),
-                'created_at' => date('Y-m-d H:i:s'),
-            ],
-            [
-                'name'    => 'Jane Smith',
-                'email'   => 'jane@example.com',
+                'name'    => 'Dystian En Yusgiantoro',
+                'email'   => 'tian@gmail.com',
                 'password' => password_hash('123', PASSWORD_DEFAULT),
                 'created_at' => date('Y-m-d H:i:s'),
             ],

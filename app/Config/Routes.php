@@ -11,6 +11,7 @@ $routes->get('/', 'Home::index');
 $routes->group('api', function ($routes) {
   // AUTH
   $routes->post('login', 'AuthController::login');
+  $routes->post('register', 'AuthController::register');
 
   // BOOKS
   $routes->get('books', 'BookController::index');
